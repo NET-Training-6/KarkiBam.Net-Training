@@ -1,3 +1,1 @@
 # KarkiBam.Net-Training
-
-hello

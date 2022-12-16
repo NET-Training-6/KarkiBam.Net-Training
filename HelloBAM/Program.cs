@@ -4,5 +4,4 @@
 
 
 string name = "bam";
-string name = "karki";
 Console.WriteLine(name);
