@@ -1,45 +1,52 @@
-// class Entry
-
-// {
-//     public static void Main()
-//     {
-//         Console.ReadLine();
-
-//         var number = 50; // if 50 is even or odd how to know.
-
-//         if (number % 2 == 0)
-//         {
-
-//             Console.WriteLine(number + " is even");
-//         }
-//         else
-//         {
-//             Console.WriteLine(number + " is odd");
-
-//         }
-//     }
-// }
-// find simple interest for principal amount, time and rate given by user.
-
-class classork
+class Entry
 {
     public static void Main()
     {
 
-        Console.WriteLine("principal amount");
-        int amount = int.Parse(Console.ReadLine());
-        Console.WriteLine("Enter a time period");
-        int time_period = int.Parse(Console.ReadLine());
-        Console.WriteLine("interest rate");
-        int interestrate = int.Parse(Console.ReadLine());
-        int simple_interest = amount * time_period * interestrate / 100;
-        Console.WriteLine("The simple interest =" + simple_interest);
 
-        Console.ReadLine();
+        //     {
+        //         int num;
+        //         Console.WriteLine("Enter your check number:");
+        //         num = Convert.ToInt32(Console.ReadLine());
+        //         if (num % 3 == 0 && num % 5 == 0)
+        //         {
+        //             Console.WriteLine(num + " is even");
+        //             Console.WriteLine(num + " is a multiple of 3 and 5");
+        //         }
+        //         else if (num % 5 == 0)
+        //         {
+        //             Console.WriteLine(num + " is multiple of 5");
+        //         }
+        //         else if (num % 3 == 0)
+        //         {
+        //             Console.WriteLine(num + " is multiple of 3");
+        //         }
+        //         else
+        //         {
+        //             Console.WriteLine(num + " is odd");
+        //             Console.WriteLine(num + " is not multiple of 3 nor 5");
+        //         }
+        //     }
+        // }
 
+
+        //find if user supplied number is multiple of 3 and 5
+
+
+
+        Console.Write("enter number");
+        var input = Console.ReadLine();
+        var n = int.Parse(input);
+
+        if (n % 3 == 0 && n % 5 == 0)
+        {
+            Console.WriteLine(n + " is multiple of 3 and 5.");
+
+        }
+        else
+        {
+            Console.WriteLine(n + " is not divisible of 3 and/or 5.");
+
+        }
     }
-
-
 }
-
-
