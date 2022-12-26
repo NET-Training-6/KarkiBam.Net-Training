@@ -19,7 +19,7 @@
 // }
 
 
-class Animal
+class animal1
 {
     public bool isDomestic;
     public float height;
