@@ -44,12 +44,25 @@ class EntryPoint
         // Animal a3 = new(name: "cat", legs: 4, isDomestic: true);
         // Animal a4 = new("pig", false, 4);
 
-        var r3 = new Room(454.5, 123.5);
-        var r = r3.GetArea();
+        //         var r3 = new Room(454.5, 123.5);
+        //         var r = r3.GetArea();
 
-        var r2 = new Room(454.5, 123.5, "Red", 23);
-        var rr = r2.GetArea();
+        //         var r2 = new Room(454.5, 123.5, "Red", 23);
+        //         var rr = r2.GetArea();
 
-        Console.WriteLine($"Area of room r2: {rr} square inch");
+        //         Console.WriteLine($"Area of room r2: {rr} square inch");
+
+        // var r1 = new Rectangle(23.34, 23.34);
+        // r1.GetArea();
+        // r1.GetPerimeter();
+
+
+        // var s1 = new square(24.34);
+        // s1.GetArea();
+        // s1.GetPerimeter();
+
+
+        var B = new Mobile();
+
     }
 }
