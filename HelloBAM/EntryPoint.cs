@@ -61,8 +61,11 @@ class EntryPoint
         // s1.GetArea();
         // s1.GetPerimeter();
 
+        Mobile m1 = new Mobile();
+        m1.GetIEMICode();
+        m1.Dial();
+        m1.SendMessage();
 
-        var B = new Mobile();
 
     }
 }
