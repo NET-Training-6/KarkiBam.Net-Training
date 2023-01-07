@@ -86,30 +86,30 @@
 
 //mobile class looks like,
 
-public class Mobile
-{
-    private string IEMICode;
-    public string SIMCard;
-    public String Processor;
-    public int InternalMemory;
-    public bool IsSingleSIM;
-    public void GetIEMICode()
-    {
-        Console.WriteLine("IEMI Code - BPDK23232333334");
-    }
-    public void Dial()
-    {
-        Console.WriteLine("Dial number");
-    }
-    public void Received()
-    {
-        Console.WriteLine("Received a call");
-    }
+// public class Mobile
+// {
+//     private string IEMICode;
+//     public string SIMCard;
+//     public String Processor;
+//     public int InternalMemory;
+//     public bool IsSingleSIM;
+//     public void GetIEMICode()
+//     {
+//         Console.WriteLine("IEMI Code - BPDK23232333334");
+//     }
+//     public void Dial()
+//     {
+//         Console.WriteLine("Dial number");
+//     }
+//     public void Received()
+//     {
+//         Console.WriteLine("Received a call");
+//     }
 
-    public virtual void SendMessage()
-    {
-        Console.WriteLine("Message Sent");
-    }
-}
+//     public virtual void SendMessage()
+//     {
+//         Console.WriteLine("Message Sent");
+//     }
+// }
 
 
