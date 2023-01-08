@@ -67,7 +67,7 @@ class EntryPoint
         // m1.SendMessage();
 
         Paragraph p1 = new();
-        p1.CountSentences();
+        p1.countWords();
 
     }
 }

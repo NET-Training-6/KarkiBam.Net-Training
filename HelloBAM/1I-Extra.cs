@@ -68,21 +68,25 @@ class Paragraph
       the chief of state is the president, \\
       and the head of government is the prime minister";
 
-    public void CountSentences()
+    public void countWords()
     {
-        var separators = new char[] { '.', '?' };
-        var sentences = story.Split(separators, StringSplitOptions.RemoveEmptyEntries);
-
-        var noOfSentences = sentences.Length;
-        Console.WriteLine("sentences Counts:" + noOfSentences);
-        foreach (var s in sentences)
+        var separators = new char[] { ' ', '\t', ',' };
+        string[] words = story.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+        int noOfWords = words.Length;
+        Console.WriteLine($"Word counts:{noOfWords} and words are following:");
+        foreach (var w in words)
         {
-            Console.WriteLine(s);
-            Console.WriteLine("-----------------------");
+            var sabda = w;
+            Console.WriteLine("=========================");
+            if (sabda.Contains(','))
+            {
+                sabda = sabda.Replace(",", "");
+            }
+            Console.WriteLine(sabda);
+
         }
     }
 }
-
 
 
 
