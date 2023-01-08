@@ -66,7 +66,8 @@ class EntryPoint
         // m1.Dial();
         // m1.SendMessage();
 
-
+        Paragraph p1 = new();
+        p1.CountSentences();
 
     }
 }
