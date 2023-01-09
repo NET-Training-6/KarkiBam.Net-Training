@@ -66,8 +66,14 @@ class EntryPoint
         // m1.Dial();
         // m1.SendMessage();
 
-        Paragraph p1 = new();
-        p1.countWords();
+        // Paragraph p1 = new();
+        // p1.DisplayParagraphInfo();
 
+        // Generic G1 = new();
+        // G1.Print("Nepal is beautiful country");
+        // G1.Print("344");
+
+        CollectionLearner C1 = new();
+        C1.LearnList();
     }
 }
