@@ -1,19 +1,19 @@
-class Cigeratte
-{
+// class Cigeratte
+// {
 
-    //Full property defination
-    double price;
+//     //Full property defination
+//     double price;
 
-    //Auto-implemented property
-    public string vendor { get; set; }
-    public string vendor1 { get; private set; }
-    public string vendor2 { get; }
+//     //Auto-implemented property
+//     public string vendor;
+//     public string vendor1;
+//     public string vendor2;
 
-}
-class abd
-{
-    void Test()
-    {
+// }
+// class abd
+// {
+//     void Test()
+//     {
 
-    }
-}
+//     }
+// }
