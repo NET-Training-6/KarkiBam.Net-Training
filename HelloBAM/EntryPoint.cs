@@ -103,7 +103,10 @@ class EntryPoint
         // Linq L1 = new();
         // L1.Test();
 
-        Linq linq = new();
-        linq.LearnToQueryComplexCollection();
+        // Linq linq = new();
+        // linq.LearnToQueryComplexCollection();
+
+        Country1 Q1 = new();
+        Q1.QueryCountry();
     }
 }
