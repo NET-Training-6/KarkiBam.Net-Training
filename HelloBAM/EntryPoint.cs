@@ -106,7 +106,10 @@ class EntryPoint
         // Linq linq = new();
         // linq.LearnToQueryComplexCollection();
 
-        Country1 Q1 = new();
-        Q1.QueryCountry();
+        // Country1 Q1 = new();
+        // Q1.QueryCountry();
+
+        FileAndDirectory F1 = new();
+        F1.LearnFilesAndFolders();
     }
 }
